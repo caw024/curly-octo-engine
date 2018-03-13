@@ -1,5 +1,5 @@
-//Qian Zhou
-//APCS2 pd0
+//Curly Octo Engine
+//APCS2 pd01
 //HW18 -- QuickSort
 //2018-03-13t
   
@@ -18,7 +18,7 @@
  * 
  * 2b. Best pivot choice and associated runtime:
  *
- * There is no best or worst pivot choice since either way every value must 
+ * There is no best or worst pivot choice since the input array is random or gets shuffled by the partition. O(n^2) runtie 
  * 3. Approach to handling duplicate values in array:
  * Duplicate values are seen as greater than each other as in the partition f * unction the division is made by <=
  *****************************************************/
