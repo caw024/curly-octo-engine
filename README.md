@@ -11,8 +11,8 @@ For an array of size n, the worst case execution time of our search method is O(
 ## Background
 
 Given an array of length n, we propose that our search algorithm will be able to sort it in quadratic
-time. The QuickSort algorithm works by picking a pivot point, partitioning the array, and fixing the number 
-at the value of the pivot position. The maximum number of moves 
+time. The QuickSort algorithm works by picking a pivot point, partitioning the array at that point, and fixing the number 
+at the value of the pivot position to repeat the process with the arrays up or down from that partition point to the next partition point or the start or end. The process will repeat until every point had been fixed. The maximum number of moves 
 
 ## Experiment methodology described
 
@@ -27,8 +27,8 @@ The process is repeated for the other n x n arrays with n incrementing by 1000 u
 
 | size (n)	| time (milliseconds) | 
 |---------|-------------------|
-| 1000 | 812 | 
-| 2000 | 	1361 | 
-| 3000 | 	2126 | 
-| 4000 | 	3523 | 
-| 5000 | 	4439 | 
+| 1000 |  | 
+| 2000 |  | 
+| 3000 |  | 
+| 4000 |  | 
+| 5000 |  | 
