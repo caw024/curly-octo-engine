@@ -33,4 +33,6 @@ The process is repeated for the other n x n arrays with n incrementing by 1000 u
 | 4000 |  | 
 | 5000 |  | 
 
+![alt text](https://github.com/caw024/curly-octo-engine/blob/master/graph%20from%20data%20from%20tester2.png "TIME vs SIZE")
+
 ## Conclusions
