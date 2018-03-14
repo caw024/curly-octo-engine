@@ -46,3 +46,4 @@ Worst case: If the pivot point we choose is at any one of the ends of the graph,
 ![alt text](https://github.com/caw024/curly-octo-engine/blob/master/graph%20from%20data%20from%20tester2.png "TIME vs SIZE")
 
 ## Conclusions
+For the first 20000 test we did, the values were consistenly increasing in approximately O(nlogn) time. The outliers became prevalent as we approached higher values, which sporadically places points on the graph.
