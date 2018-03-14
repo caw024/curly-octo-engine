@@ -36,6 +36,8 @@ Average case: The pivot point is likely to be somewhere along the middle, so it 
 Worst case: If the pivot point we choose is at any one of the ends of the graph, then we have to do quicksort n times as well as partition n times. This should run in O(n^2) time.
 
 ## Results
+Result for first method:
+![alt text](ttps://github.com/caw024/curly-octo-engine/blob/master/graph1%20from%20data%20from%20tester1.png "Time(milliseconds) vs. n")
 
 Result for second method:
 ![alt text](https://github.com/caw024/curly-octo-engine/blob/master/graph%20from%20data%20from%20tester2.png "TIME vs SIZE")
