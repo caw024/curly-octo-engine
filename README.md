@@ -21,6 +21,8 @@ algorithm by running it 1000 times for each n.
 This ensures that any outliers become insignificant through the numerous trials.
 The time needed for the 1,000,000 trials is then stored into an array.
 
+Another method (Method 2) of doing it is counting the time for a array of length n as n increases by an increment of 50 up to 100000, so that the number tests with small increments may make up for the deficit in randomness.
+
 ## Analysis
 Here are some things that we deduced from QuickSort's Big-Oh runtime.
 
@@ -35,7 +37,7 @@ Worst case: If the pivot point we choose is at any one of the ends of the graph,
 
 ## Results
 
-
+Result for second method:
 ![alt text](https://github.com/caw024/curly-octo-engine/blob/master/graph%20from%20data%20from%20tester2.png "TIME vs SIZE")
 
 ## Conclusions
