@@ -12,16 +12,26 @@ For an array of size n, the worst case execution time of our search method is O(
 
 Given an array of length n, we propose that our search algorithm will be able to sort it in quadratic
 time. The QuickSort algorithm works by picking a pivot point, partitioning the array at that point, and fixing the number 
-at the value of the pivot position to repeat the process with the arrays up or down from that partition point to the next partition point or the start or end. The process will repeat until every point had been fixed. The maximum number of moves 
+at the value of the pivot position to repeat the process with the arrays up or down from that partition point to the next partition point or the start or end. The process will repeat until every point had been fixed.
 
 ## Experiment methodology described
 
-We started off with a randomly generated 1000x1000 matrix from which we tested our
-algorithm by running it 1,000,000 times in a row, searching for random values each time.
-This ensures that any outliers become insignificant thoough the numerous trials.
+We started off with a randomly generated array of length 2^n from which we tested our
+algorithm by running it 1000 times for each n.
+This ensures that any outliers become insignificant through the numerous trials.
 The time needed for the 1,000,000 trials is then stored into an array.
-The process is repeated for the other n x n arrays with n incrementing by 1000 up to
-15000x15000.
+
+## Analysis
+Here are some things that we deduced from QuickSort's Big-Oh runtime.
+
+Best case: If the number at the pivot point that we pick is the median number of the array. This is because
+we can split the array into two halves to deal with and continue the process. Partition runs in O(n) time
+and if we continue to half the array in such a way, we will run partition in around logn times, for a total
+run time of O(nlogn)
+
+Average case: The pivot point is likely to be somewhere along the middle, so it is likely to run somewhere around O(nlogn) time.
+
+Worst case: If the pivot point we choose is at any one of the ends of the graph, then we have to do quicksort n times as well as partition n times. This should run in O(n^2) time.
 
 ## Results
 
