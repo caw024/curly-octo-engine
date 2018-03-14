@@ -19,7 +19,7 @@ at the value of the pivot position to repeat the process with the arrays up or d
 We started off with a randomly generated array of length 2^n from which we tested our
 algorithm by running it 1000 times for each n.
 This ensures that any outliers become insignificant through the numerous trials.
-The time needed for the 1,000,000 trials is then stored into an array.
+The time needed for the 1,000 trials is then stored into an array.
 
 Another method (Method 2) of doing it is counting the time for a array of length n as n increases by an increment of 50 up to 100000, so that the number tests with small increments may make up for the deficit in randomness.
 
