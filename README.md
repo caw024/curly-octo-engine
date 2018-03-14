@@ -43,6 +43,7 @@ Result for second method (Time(nanoseconds) v n):
 ![alt text](https://github.com/caw024/curly-octo-engine/blob/master/graph%20from%20data%20from%20tester2.png "TIME vs SIZE")
 
 ## Conclusions
+The first method seem to suggest that the function is O(n^2) as for every doubling of value in n, the runtime quadruples.
 For the first 20000 test we did, the values were consistenly increasing in approximately O(nlogn) time. The outliers became prevalent as we approached higher values, which sporadically places points on the graph.
 
 Data for Method 2: The data seem at first to increment linearly, though the pace of growth seem to decrease as time goes on. The average run time seems to jump up around 50000, fall back before 75000, and take another short jump up and assume a slower pace. This might be caused by the computer running other programs or closing them around that time. 
