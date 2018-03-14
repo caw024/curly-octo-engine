@@ -38,12 +38,14 @@ Worst case: If the pivot point we choose is at any one of the ends of the graph,
 ## Results
 Result for first method:
 ![alt text](https://github.com/caw024/curly-octo-engine/blob/master/graph1%20from%20data%20from%20tester1.png "Time(milliseconds) vs. n")
-
+Weird data from a slight variation of first method:
+![alt text](https://github.com/caw024/curly-octo-engine/blob/master/weird%20data%20from%20variation%20of%20tester%201.png "Time(nano) v n")
 Result for second method (Time(nanoseconds) v n):
 ![alt text](https://github.com/caw024/curly-octo-engine/blob/master/graph%20from%20data%20from%20tester2.png "TIME vs SIZE")
 
 ## Conclusions
 The first method seem to suggest that the function is O(n^2) as for every doubling of value in n, the runtime quadruples.
+However the slight variation on how to test the time by incrementing in 64s show a graph close to linear time, which is hard to explain.
 For the first 20000 test we did, the values were consistenly increasing in approximately O(nlogn) time. The outliers became prevalent as we approached higher values, which sporadically places points on the graph.
 
 Data for Method 2: The data seem at first to increment linearly, though the pace of growth seem to decrease as time goes on. The average run time seems to jump up around 50000, fall back before 75000, and take another short jump up and assume a slower pace. This might be caused by the computer running other programs or closing them around that time. 
