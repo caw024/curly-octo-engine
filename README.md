@@ -38,8 +38,10 @@ Worst case: If the pivot point we choose is at any one of the ends of the graph,
 ## Results
 Result for first method:
 ![alt text](https://github.com/caw024/curly-octo-engine/blob/master/graph1%20from%20data%20from%20tester1.png "Time(milliseconds) vs. n")
+
 Weird data from a slight variation of first method:
 ![alt text](https://github.com/caw024/curly-octo-engine/blob/master/weird%20data%20from%20variation%20of%20tester%201.png "Time(nano) v n")
+
 Result for second method (Time(nanoseconds) v n):
 ![alt text](https://github.com/caw024/curly-octo-engine/blob/master/graph%20from%20data%20from%20tester2.png "TIME vs SIZE")
 
