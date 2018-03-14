@@ -35,13 +35,6 @@ Worst case: If the pivot point we choose is at any one of the ends of the graph,
 
 ## Results
 
-| size (n)	| time (milliseconds) | 
-|---------|-------------------|
-| 1000 |  | 
-| 2000 |  | 
-| 3000 |  | 
-| 4000 |  | 
-| 5000 |  | 
 
 ![alt text](https://github.com/caw024/curly-octo-engine/blob/master/graph%20from%20data%20from%20tester2.png "TIME vs SIZE")
 
